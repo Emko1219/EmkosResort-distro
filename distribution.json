@@ -12,7 +12,7 @@
       "name": "엠코의 휴양지",
       "description": "엠코의 휴양지 Running Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/launcherIMG.jpg",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "엠코.메인.한국",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -336,14 +336,54 @@
           }
         },
         {
+          "id": "asteorbar.json5",
+          "name": "asteorbar.json5",
+          "type": "File",
+          "artifact": {
+            "size": 13227,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/config/asteorbar.json5",
+            "path": "config/asteorbar.json5"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5477,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 21352,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 10771,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/servers.dat_old",
+            "path": "servers.dat_old"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.2.2.zip",
           "name": "ComplementaryUnbound_r5.2.2.zip",
           "type": "File",
           "artifact": {
             "size": 441687,
-            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/resourcepacks/ComplementaryUnbound_r5.2.2.zip",
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
             "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
-            "path": "resourcepacks/ComplementaryUnbound_r5.2.2.zip"
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
           }
         }
       ]
