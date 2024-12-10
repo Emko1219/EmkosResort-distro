@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/helios/Emko's%20resort/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "EmkosResort (Minecraft 1.20.1)",
+    "description": "EmkosResort Running Minecraft 1.20.1 (Fabric v0.15.11)",
+    "icon": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/launcherIMG.jpg",
+    "address": "엠코.메인.한국",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}
