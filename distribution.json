@@ -12,7 +12,7 @@
       "name": "엠코의 휴양지",
       "description": "엠코의 휴양지 Running Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/launcherIMG.jpg",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "엠코.메인.한국",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -276,6 +276,16 @@
           }
         },
         {
+          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 573183,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/fabricmods/required/lambdynamiclights-2.3.2+1.20.1.jar",
+            "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          }
+        },
+        {
           "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
           "name": "Legendary Tooltips",
           "type": "FabricMod",
@@ -293,6 +303,19 @@
             "size": 721366,
             "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
             "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.10.1+1.20.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5664952,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/fabricmods/optionalon/PresenceFootsteps-1.10.1+1.20.1.jar",
+            "MD5": "4d9d64890b7b90641ce6be7d0c9cd3c6"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -340,9 +363,19 @@
           "name": "asteorbar.json5",
           "type": "File",
           "artifact": {
-            "size": 13227,
+            "size": 13222,
             "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/config/asteorbar.json5",
             "path": "config/asteorbar.json5"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 423,
+            "url": "https://raw.githubusercontent.com/Emko1219/EmkosResort-distro/main/servers/EmkosResort-1.20.1/files/config/userconfig.json",
+            "path": "config/userconfig.json"
           }
         },
         {
